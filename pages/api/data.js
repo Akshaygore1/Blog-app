@@ -1,91 +1,4 @@
 export default {
-  Trending: [
-    {
-      id: 1,
-      title: "Your most unhappy customers are your greatest source of learning",
-      subtitle:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      category: "Business, Travel",
-      img: "/images/img1.jpg",
-      description: `
-            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
-            text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-            `,
-      published: "Jun 3,  2022",
-      author: {
-        name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
-      },
-    },
-    {
-      id: 2,
-      title: "Your most unhappy customers are your greatest source of learning",
-      subtitle:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      category: "Business, Travel",
-      img: "/images/img2.jpg",
-      description: `
-            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
-            text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-            `,
-      published: "Jun 5,  2022",
-      author: {
-        name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
-      },
-    },
-    {
-      id: 3,
-      title: "Your most unhappy customers are your greatest source of learning",
-      subtitle:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      category: "Business, Travel",
-      img: "/images/img3.png",
-      description: `
-            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
-            text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-            `,
-      published: "Jun 7,  2022",
-      author: {
-        name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
-      },
-    },
-    {
-      id: 4,
-      title: "Your most unhappy customers are your greatest source of learning",
-      subtitle:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      category: "Business, Travel",
-      img: "/images/img4.png",
-      description: `
-            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
-            text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-            `,
-      published: "Jun 10,  2022",
-      author: {
-        name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
-      },
-    },
-    {
-      id: 5,
-      title: "Your most unhappy customers are your greatest source of learning",
-      subtitle:
-        "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      category: "Business, Travel",
-      img: "/images/img5.png",
-      description: `
-            Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind 
-            text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-            `,
-      published: "Jun 14,  2022",
-      author: {
-        name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
-      },
-    },
-  ],
   Posts: [
     {
       id: 1,
@@ -115,8 +28,28 @@ export default {
       published: "Jun 3,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
     },
     {
       id: 2,
@@ -146,8 +79,28 @@ export default {
       published: "Jun 5,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
     },
     {
       id: 3,
@@ -177,8 +130,28 @@ export default {
       published: "Jun 7,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
     },
     {
       id: 4,
@@ -208,8 +181,28 @@ export default {
       published: "Jun 10,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
     },
     {
       id: 5,
@@ -239,8 +232,28 @@ export default {
       published: "Jun 14,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
     },
     {
       id: 6,
@@ -270,9 +283,29 @@ export default {
       published: "Jun 5,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
-    },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
+    }
   ],
   Popular: [
     {
@@ -289,8 +322,28 @@ export default {
       published: "Jun 3,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
     },
     {
       id: 2,
@@ -306,8 +359,28 @@ export default {
       published: "Jun 5,  2022",
       author: {
         name: "",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
     },
     {
       id: 3,
@@ -323,8 +396,28 @@ export default {
       published: "Jun 7,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
     },
     {
       id: 4,
@@ -340,8 +433,28 @@ export default {
       published: "Jun 10,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
     },
     {
       id: 5,
@@ -357,8 +470,28 @@ export default {
       published: "Jun 14,  2022",
       author: {
         name: "Ashwini Paraye",
-        img: "/images/author/author1.jpg",
+        img: "/images/author/author1.jpg"
       },
-    },
-  ],
-};
+      comments: [
+        {
+          id: 1,
+          name: "John",
+          email: "john@example.com",
+          comment: "Great article!"
+        },
+        {
+          id: 2,
+          name: "Jane",
+          email: "jane@example.com",
+          comment: "Thanks for sharing!"
+        },
+        {
+          id: 3,
+          name: "Bob",
+          email: "bob@example.com",
+          comment: "I have a question..."
+        }
+      ]
+    }
+  ]
+}
