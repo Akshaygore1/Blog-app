@@ -4,26 +4,26 @@ const CommentSection = ({ comments }) => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [comment, setComment] = useState("")
-  // const [comments, setComments] = useState([
-  //   {
-  //     id: 1,
-  //     name: "John",
-  //     email: "john@example.com",
-  //     comment: "Great article!"
-  //   },
-  //   {
-  //     id: 2,
-  //     name: "Jane",
-  //     email: "jane@example.com",
-  //     comment: "Thanks for sharing!"
-  //   },
-  //   {
-  //     id: 3,
-  //     name: "Bob",
-  //     email: "bob@example.com",
-  //     comment: "I have a question..."
-  //   }
-  // ])
+  const [comments, setComments] = useState([
+    {
+      id: 1,
+      name: "John",
+      email: "john@example.com",
+      comment: "Great article!"
+    },
+    {
+      id: 2,
+      name: "Jane",
+      email: "jane@example.com",
+      comment: "Thanks for sharing!"
+    },
+    {
+      id: 3,
+      name: "Bob",
+      email: "bob@example.com",
+      comment: "I have a question..."
+    }
+  ])
 
   const handleNameChange = (e) => {
     setName(e.target.value)
